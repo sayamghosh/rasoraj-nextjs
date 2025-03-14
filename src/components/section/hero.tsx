@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function Hero() {
   return (
-    <div className="relative h-screen w-full flex  max-xl:pt-10 justify-center xl:justify-start xl:items-center xl:pl-10  bg-red-400">
+    <div className="relative h-screen w-full flex  max-xl:pt-10 justify-center xl:justify-start xl:items-center xl:pl-10">
       {/* Background Image */}
       <Image
         src="https://dadus.co.in/cdn/shop/files/Mobile_-_Banner2_34f308d9-faef-4595-90e7-b78e1521f0ee.jpg?v=1691074823&width=800"

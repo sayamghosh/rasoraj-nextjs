@@ -21,8 +21,8 @@ export default function Navbar() {
         <h1 className="font-bold font-serif text-3xl text-orange-600">Rasoraj</h1>
       </div>
 
-      <div id="menu">
-        <ul className={`flex ${poppins.className}  text-xl space-x-16 text-[#C1AC74]`}>
+      <div id="menu" className='hidden md:block'>
+        <ul className={`flex ${poppins.className}  text-xl gap-5 lg:gap-16 text-[#C1AC74]`}>
           <li className="hover:text-orange-500 cursor-pointer">Home</li>
           <li className="hover:text-orange-500 cursor-pointer">About</li>
           <li className="hover:text-orange-500 cursor-pointer">Sweets</li>
